@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "eslint .",
-    "test": "mocha test && karma start ./karma.conf.js --single-run",
+    "test": "mocha test && karma start ./karma.confs.js --single-run",
     "watch": "mocha test --watch",
     "prebuild": "./scripts/update-rules.js",
     "build": "browserify ./index.js --standalone=psl > ./dist/psl.js",
